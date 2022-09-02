@@ -14,10 +14,10 @@ if __name__ == "__main__":
     REQUIREMENTS = _read_reqs("requirements.txt")
 
     setup(
-        name="mclip",
+        name="mclip_anytorch",
         packages=find_packages(),
         include_package_data=True,
-        version="1.0.12",
+        version="1.0.13",
         license="MIT",
         description="OpenAI CLIP text encoders for multiple languages!",
         long_description=long_description,
